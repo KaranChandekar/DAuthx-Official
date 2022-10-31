@@ -14,26 +14,13 @@ h1 {
 }
 
 a {
-  font-size: 1.8rem;
-  padding-left: 4rem;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-
-a {
   margin: 0 1rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #3f4254;
   cursor: pointer;
   padding: 1rem;
   border-radius: 0.5rem;
   transition: all 0.2s;
-}
-
-.menu-link {
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin: 0 0.5rem;
 }
 
 a:hover {

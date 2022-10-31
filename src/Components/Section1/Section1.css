@@ -1,33 +1,33 @@
 .section-1 {
-  height: 90vh;
-  margin: 0 15rem;
+  /* height: 100vh; */
+  margin: 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
 }
 
-.section-1 .lottie,
 .section-1 .text {
-  width: 60rem;
+  width: 55rem;
 }
 
 .section-1 .text h1 {
-  font-size: 6rem;
-  font-weight: 500;
-  font-family: "Ubuntu", sans-serif;
+  font-size: 7rem;
+  font-weight: 700;
   color: #3c4048;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+  line-height: 8rem;
 }
 
 .section-1 .text span {
-  color: #13fee2;
+  font-size: 6rem;
+  color: #3e97ff;
 }
 
 .section-1 .text p {
-  font-size: 2.5rem;
-  word-spacing: 0.5rem;
-  color: #b2b2b2;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #3f4254;
 }
 
 .section-1 .text .btn-wrapper {
@@ -36,28 +36,56 @@
 
 .section-1 .text .btn {
   font-size: 1.8rem;
-  letter-spacing: .1rem;
-  border:  2px solid #13fee2;
+  letter-spacing: 0.1rem;
+  border: 2px solid #3e97ff;
   margin-right: 2rem;
   padding: 1.5rem 4rem;
-  border-radius: .5rem;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .section-1 .text .btn-left {
-  background-color: #13fee2;
-  color: #3c4048;
+  background-color: #3e97ff;
+  color: #ffffff;
 }
 
 .section-1 .text .btn-right {
   background-color: transparent;
-  color: #13fee2;
+  color: #3e97ff;
 }
 
 .section-1 .text .btn-right:hover {
-  background-color: #13fee2;
-  color: #3c4048;
+  background-color: #3e97ff;
+  color: #ffffff;
+}
+
+.section-1 .img-container {
+  display: flex;
+  align-items: center;
+}
+
+.section-1 .img-container .img-wrapper {
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-1 .img-container .arrow-wrapper {
+  width: 20rem;
+  height: 20rem;
+}
+
+.section-1 .img-container .img-wrapper img {
+  width: 10rem;
+  margin: 1rem;
+}
+
+.section-1 .img-container .img-wrapper .arrow-img {
+  width: 15rem;
+  margin: 1rem;
 }
 
 @media (max-width: 1000px) {
@@ -70,10 +98,6 @@
     text-align: center;
     width: 100%;
     z-index: 999;
-  }
-
-  .section-1 .lottie {
-    filter: brightness(40%);
   }
 }
 
