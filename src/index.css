@@ -14,12 +14,18 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #3c4048;
+  background-color: #eff2f5;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
 }
 
 @media (max-width: 500px) {

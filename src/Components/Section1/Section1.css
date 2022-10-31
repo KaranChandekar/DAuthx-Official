@@ -16,7 +16,7 @@
   font-size: 6rem;
   font-weight: 500;
   font-family: "Ubuntu", sans-serif;
-  color: #fff;
+  color: #3c4048;
   padding-bottom: 2rem;
 }
 
@@ -77,9 +77,8 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .section-1 {
-    height: 100vh;
     margin: 0;
   }
 

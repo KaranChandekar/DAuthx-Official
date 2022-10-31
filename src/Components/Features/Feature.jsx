@@ -5,7 +5,7 @@ import Tilt from 'react-tilt'
 const Feature = (props) => {
   return (
     <>
-    <Tilt className="Tilt feature" options={{ max : 25 }} style={{ height: 230, width: 270 }} >
+    <Tilt className="Tilt feature" options={{ max : 25 }} style={{ height: 230, width: 270 }} id="usecases" >
     {/* <div className="feature"> */}
       <i className={props.icon}></i>
       <p>{props.text}</p>

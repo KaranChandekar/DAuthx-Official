@@ -34,7 +34,7 @@ const Section2 = () => {
     animationData: done,
   };
   return (
-    <div className="section-2">
+    <div className="section-2" id="howitworks">
       <h1>How it works?</h1>
       <div className="steps step-1">
         <div className="text text-1">

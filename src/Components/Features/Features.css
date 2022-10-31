@@ -18,3 +18,13 @@
   width: 60%;
   flex-wrap: wrap;
 }
+
+@media (max-width:500px) {
+  .features .features-container {
+    width: 90%;
+  }
+
+  .features h1 {
+    margin-top: 0;
+  }
+}
