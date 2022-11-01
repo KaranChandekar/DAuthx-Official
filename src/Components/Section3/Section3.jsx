@@ -1,8 +1,8 @@
 import React from "react";
 import Feature from "./Feature";
-import "./Features.css";
+import "./Section3.css";
 
-const Features = () => {
+const Section3 = () => {
   const icon = [
     "fa-solid fa-shield-halved",
     "fa-regular fa-address-card",
@@ -31,4 +31,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default Section3;
