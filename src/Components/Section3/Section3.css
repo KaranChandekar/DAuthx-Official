@@ -5,10 +5,10 @@
 }
 
 .section-3 h1 {
-  margin: 10rem 0 5rem 0;
+  margin: 5rem 0 5rem 0;
   font-size: 5rem;
   font-weight: 400;
-  color: #fff;
+  color: #000000;
 }
 
 .section-3 .features-container {
@@ -19,7 +19,7 @@
   flex-wrap: wrap;
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .section-3 .features-container {
     width: 90%;
   }

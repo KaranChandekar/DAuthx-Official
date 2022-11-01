@@ -1,6 +1,6 @@
 .section-1 {
   /* height: 100vh; */
-  margin: 10rem;
+  margin: 14rem 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,8 +38,8 @@
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   border: none;
-  margin-right: 2rem;
-  padding: 1.8rem 4rem;
+  margin-right: 3rem;
+  padding: 2rem 5rem;
   cursor: pointer;
   transition: all 0.3s;
 }
