@@ -1,4 +1,4 @@
-.section-2 {
+.section-4 {
   /* height: 100vh; */
   width: 100%;
   display: flex;
@@ -7,14 +7,14 @@
   justify-content: center;
 }
 
-.section-2 h1 {
+.section-4 h1 {
   margin-top: 10rem;
   font-size: 5rem;
   font-weight: 400;
   color: #fff;
 }
 
-.section-2 .steps {
+.section-4 .steps {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,23 +22,23 @@
   margin-bottom: 5rem;
 }
 
-.section-2 .lottie {
+.section-4 .lottie {
   width: 25rem;
 }
 
-.section-2 .text h2 {
+.section-4 .text h2 {
   font-size: 4rem;
   letter-spacing: -0.5rem;
   font-weight: 300;
   color: #13fee2;
 }
 
-.section-2 .text p {
+.section-4 .text p {
   color: #fff;
   font-size: 3rem;
 }
 
-.section-2 .doc-link {
+.section-4 .doc-link {
   margin-bottom: 10rem;
   font-size: 2rem;
   color: #13fee2;
@@ -49,36 +49,36 @@
   transition: all 0.3s;
 }
 
-.section-2 .doc-link:hover {
+.section-4 .doc-link:hover {
   background-color: #13fee2;
   color: #3c4048;
 }
 
 @media (max-width: 1000px) {
-  .section-2 .steps {
+  .section-4 .steps {
     flex-direction: column;
     text-align: center;
     margin: 2rem 0;
   }
 
-  .section-2 .step-1,
-  .section-2 .step-3,
-  .section-2 .step-5 {
+  .section-4 .step-1,
+  .section-4 .step-3,
+  .section-4 .step-5 {
     flex-direction: column-reverse;
   }
 }
 
 @media (max-width: 500px) {
-  .section-2 h1 {
+  .section-4 h1 {
     margin-top: 5rem;
   }
 
-  .section-2 .steps {
+  .section-4 .steps {
     width: 100%;
     height: 40rem;
   }
 
-  .section-2 .lottie {
+  .section-4 .lottie {
     width: 40rem;
   }
 }

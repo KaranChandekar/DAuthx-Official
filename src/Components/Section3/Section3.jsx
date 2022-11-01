@@ -18,7 +18,7 @@ const Section3 = () => {
     "On-Chain authenticated web2 social Ids",
   ];
   return (
-    <div className="features">
+    <div className="section-3">
       <h1 className="heading">Features & Use Cases</h1>
       <div className="features-container">
         <Feature icon={icon[0]} text={text[0]} />
