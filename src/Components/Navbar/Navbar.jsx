@@ -11,7 +11,7 @@ const Navbar = () => {
           {({ scroll }) => (
             <a
               className="list-item"
-              onClick={() => scroll({ y: 1000, smooth: true })}
+              onClick={() => scroll({ y: 900, smooth: true })}
             >
               Importance
             </a>
@@ -21,7 +21,7 @@ const Navbar = () => {
           {({ scroll }) => (
             <a
               className="list-item"
-              onClick={() => scroll({ y: 1700, smooth: true })}
+              onClick={() => scroll({ y: 1500, smooth: true })}
             >
               Use Cases
             </a>
@@ -31,7 +31,7 @@ const Navbar = () => {
           {({ scroll }) => (
             <a
               className="list-item"
-              onClick={() => scroll({ y: 1700, smooth: true })}
+              onClick={() => scroll({ y: 2500, smooth: true })}
             >
               How It Works?
             </a>
