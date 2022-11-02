@@ -3,18 +3,26 @@ import "./Section1.css";
 import Navbar from "../Navbar/Navbar";
 import ComingSoonBar from "../Coming Soon Bar/ComingSoonBar";
 import arrow from "../Images/arrow.png";
-import whatsapp from "../Images/whatsapp-logo.png";
-import discord from "../Images/discord-logo.png";
-import twitter from "../Images/twitter-logo.png";
-import gmail from "../Images/gmail-logo.png";
-import polygon from "../Images/polygon-logo.png";
-import ethereum from "../Images/ethereum-logo.png";
-import solana from "../Images/solana-logo.png";
-import polkadot from "../Images/polkadot-logo.png";
+// import whatsapp from "../Images/whatsapp-logo.png";
+// import discord from "../Images/discord-logo.png";
+// import twitter from "../Images/twitter-logo.png";
+// import gmail from "../Images/gmail-logo.png";
+// import polygon from "../Images/polygon-logo.png";
+// import ethereum from "../Images/ethereum-logo.png";
+// import solana from "../Images/solana-logo.png";
+// import polkadot from "../Images/polkadot-logo.png";
 import cosmos from "../Images/cosmos-atom-logo.png";
 import tron from "../Images/tron-logo.png";
 import bnb from "../Images/bnb-logo.png";
 import Main from "../../main";
+import whatsapp from "../Images/whatsapp.png";
+import twitter from "../Images/twitter.png";
+import discord from "../Images/discord.png";
+import gmail from "../Images/gmail.png";
+import solana from "../Images/solana.png";
+import ethereum from "../Images/ethereum.png";
+import polygon from "../Images/polygon.png";
+import polkadot from "../Images/polkadot-logo.png";
 
 const Section1 = () => {
   return (
