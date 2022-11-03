@@ -43,16 +43,16 @@
 .section-4 .chain-arrow {
   position: absolute;
   right: 15%;
-  top: 35rem;
-  width: 45%;
-  height: 45rem;
+  top: 32rem;
+  width: 50%;
+  height: 47rem;
   border: 2px solid #000;
 }
 
 .section-4 .user-img {
   width: 15rem;
   position: absolute;
-  top: 8%;
+  top: 5%;
   left: 15%;
 }
 
@@ -60,7 +60,7 @@
   width: 20rem;
   position: absolute;
   bottom: 0;
-  left: 15rem;
+  left: 13%;
 }
 
 .section-4 .img-wrapper {
@@ -85,7 +85,7 @@
   width: 20rem;
   position: absolute;
   top: 68rem;
-  right: 40rem;
+  right: 33%;
   background-color: #f2f7fb;
   padding: 1rem;
 }
@@ -114,14 +114,14 @@
 
 .section-4 .step-3 {
   top: 43rem;
-  left: 15rem;
+  left: 8%;
   width: 30rem;
   text-align: right;
 }
 
 .section-4 .step-4 {
   top: 90rem;
-  right: 18rem;
+  right: 15%;
   width: 30rem;
   text-align: left;
 }
