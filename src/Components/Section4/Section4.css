@@ -42,7 +42,7 @@
 
 .section-4 .chain-arrow {
   position: absolute;
-  right: 15%;
+  right: 15.5%;
   top: 32rem;
   width: 50%;
   height: 47rem;
@@ -143,6 +143,21 @@
 
 .section-4 .doc-link:hover {
   background-color: #000;
+}
+
+.section-4 .dapp-developer {
+  width: 80%;
+  height: 8rem;
+  background-color: #f2f7fb;
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4 .dapp-developer p {
+  width: auto;
+  margin-bottom: 0;
 }
 
 @media (max-width: 500px) {
