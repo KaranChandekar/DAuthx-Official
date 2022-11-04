@@ -13,6 +13,7 @@ function Main() {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Footer />
     </div>
   );
 }
