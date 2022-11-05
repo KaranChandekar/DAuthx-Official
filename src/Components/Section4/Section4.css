@@ -174,6 +174,98 @@
   color: #0060ff;
 }
 
+@media (max-width: 1400px) {
+  .section-4 .user-img {
+    width: 12rem;
+  }
+
+  .section-4 .user-valid {
+    width: 15rem;
+    left: 10%;
+  }
+
+  .section-4 .chain-arrow {
+    top: 30rem;
+  }
+
+  .section-4 .img-wrapper {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .section-4 .img-wrapper img {
+    width: 6rem;
+  }
+
+  .section-4 .blockchain-img {
+    width: 16rem;
+  }
+
+  .section-4 .step-2 {
+    right: 15%;
+    top: 45rem;
+    width: 25rem;
+  }
+
+  .section-4 .step-3 {
+    top: 40rem;
+    left: 2%;
+    width: 28rem;
+  }
+
+  .section-4 .step-4 {
+    right: 10%;
+  }
+
+  .section-4 .doc-link {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0060ff;
+    font-size: medium;
+    margin: 5rem;
+    letter-spacing: 0.1rem;
+    border: none;
+    margin-right: 3rem;
+    padding: 1.5rem 6rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 1.5rem;
+  }
+
+  .section-4 .doc-link:hover {
+    background-color: #000;
+  }
+
+  .section-4 .dapp-developer {
+    width: 80%;
+    height: 8rem;
+    background-color: #f2f7fb;
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .section-4 .dapp-developer p {
+    width: auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .section-4 .dapp-developer a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 0;
+  }
+
+  .section-4 .dapp-developer a:hover {
+    color: #0060ff;
+  }
+}
+
 @media (max-width: 500px) {
   .section-4 h1 {
     margin-top: 5rem;
