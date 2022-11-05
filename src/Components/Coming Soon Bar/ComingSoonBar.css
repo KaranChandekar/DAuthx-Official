@@ -35,3 +35,14 @@
     margin: 0 2rem;
   }
 }
+
+@media (max-width:1000px) {
+  .cs-bar h2 {
+    font-size: 2rem;
+  }
+
+  .cs-bar .img-container img {
+    width: 6rem;
+    margin: 0 1rem;
+  }
+}

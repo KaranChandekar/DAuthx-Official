@@ -33,6 +33,12 @@
   }
 }
 
+@media (max-width:1000px) {
+  .section-3 .features-container {
+    width: 95%;
+  }
+}
+
 @media (max-width: 500px) {
   .section-3 .features-container {
     width: 90%;

@@ -164,7 +164,24 @@
 
 @media (max-width: 1000px) {
   .section-1-main {
-    height: 110vh;
+    height: 130vh;
+  }
+
+  .section-1 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .section-1 .text {
+    margin-top: 5rem;
+  }
+
+  .section-1 .text h1 {
+    font-size: 7rem;
+  }
+
+  .section-1 .text span {
+    font-size: 6rem;
   }
 
   .section-1 .text .btn {
