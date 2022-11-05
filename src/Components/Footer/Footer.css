@@ -77,3 +77,10 @@
   font-size: 2rem;
   transition: all 0.2s;
 }
+
+@media (max-width:1400px) {
+  .footer {
+    padding: 5rem 10rem 0 10rem;
+  }
+  
+}

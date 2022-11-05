@@ -27,6 +27,12 @@ a:hover {
   color: #0060ff;
 }
 
+@media (max-width: 1400px) {
+  .navbar {
+    padding: 2rem 10rem;
+  }
+}
+
 @media (max-width: 600px) {
   .navbar {
     justify-content: space-between;

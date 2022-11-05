@@ -104,7 +104,7 @@
   }
 
   .section-1 .text {
-    width: 55rem;
+    width: 60rem;
   }
 
   .section-1 .text h1 {
@@ -163,15 +163,12 @@
 }
 
 @media (max-width: 1000px) {
-  .section-1 {
-    justify-content: center;
+  .section-1-main {
+    height: 110vh;
   }
 
-  .section-1 .text {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    z-index: 999;
+  .section-1 .text .btn {
+    margin-right: 2rem;
   }
 }
 
