@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { ScrollTo } from "react-scroll-to/dist";
 
 const Navbar = () => {
+  const [show, setShow] = useState(false);
+
+  const showAndHideHandler = () => {
+    setShow(!show);
+  };
   return (
-    <div className="navbar">
-      <h1>authx</h1>
-      <div className="links">
+    <header>
+      <h1 className="logo">authx</h1>
+
+      <div
+        id="menu-bar"
+        className="fas fa-bars"
+        onClick={showAndHideHandler}
+      ></div>
+
+      <nav className={show ? "navbar active" : "navbar"} id="nav">
         <ScrollTo>
           {({ scroll }) => (
             <a
@@ -47,8 +59,8 @@ const Navbar = () => {
             </a>
           )}
         </ScrollTo>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 
