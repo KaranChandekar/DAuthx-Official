@@ -1,5 +1,6 @@
 import React from "react";
 import "./Section4.css";
+import { Element } from "react-scroll";
 import user from "../Images/user.png";
 import userValid from "../Images/user-valid.png";
 import whatsapp from "../Images/whatsapp.png";
@@ -10,7 +11,8 @@ import blockchain from "../Images/blockchain.png";
 
 const Section4 = () => {
   return (
-    <div className="section-4" id="howitworks">
+    <>
+    <Element id="section-4" className="section-4" name="section-4">
       <h1 className="heading">
         <span>Procedure</span>
         <br />
@@ -58,7 +60,8 @@ const Section4 = () => {
           to get started!
         </p>
       </div>
-    </div>
+      </Element>
+    </>
   );
 };
 
