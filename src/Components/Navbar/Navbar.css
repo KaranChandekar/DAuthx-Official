@@ -43,6 +43,11 @@ header .navbar a:hover {
 @media (max-width: 1000px) {
   header {
     padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
   }
 
   #menu-bar {
@@ -51,12 +56,11 @@ header .navbar a:hover {
 
   header .navbar {
     position: absolute;
-    width: 100%;
-    top: 10%;
+    top: 100%;
     left: 0;
+    right: 0;
     display: none;
     background: linear-gradient(to right, #ffffff, #d9c9ff);
-    z-index: 999;
     transition: display 0.3s ease-out;
   }
 
@@ -69,5 +73,11 @@ header .navbar a:hover {
     margin: 1.5rem;
     display: block;
     text-shadow: 0 2px 3px #888;
+  }
+}
+
+@media (max-width: 500px) {
+  header .navbar a {
+    font-size: 2.5rem;
   }
 }

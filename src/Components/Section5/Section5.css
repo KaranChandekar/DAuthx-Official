@@ -7,17 +7,33 @@
 }
 
 .section-5 h1 {
-  margin: 15rem 0 5rem 0;
-  font-size: 6rem;
+  margin: 10rem 0 5rem 0;
+  font-size: 7rem;
   font-weight: 700;
   color: #000000;
   text-align: center;
+  line-height: 6rem;
+}
+
+.section-5 span {
+  letter-spacing: 0.5rem;
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(87deg, #36beff, #733ff1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .section-5 .faq-container {
-  width: 60rem;
-  height: 60rem;
-  background-color: #f2f7fb;
+  width: 70rem;
+  border: 1px solid #d2dbf2;
   border-radius: 2rem;
   margin: 5rem 0 10rem 0;
+  padding: 2rem 5rem 5rem 5rem;
+}
+
+@media (max-width: 1000px) {
+  .section-5 .faq-container {
+    padding: 0;
+    width: 95%;
+  }
 }

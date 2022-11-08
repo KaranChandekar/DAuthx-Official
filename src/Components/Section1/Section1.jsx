@@ -2,6 +2,7 @@ import React from "react";
 import "./Section1.css";
 import Navbar from "../Navbar/Navbar";
 import ComingSoonBar from "../Coming Soon Bar/ComingSoonBar";
+import { ScrollTo } from "react-scroll-to/dist";
 import arrow from "../Images/arrow.png";
 // import whatsapp from "../Images/whatsapp-logo.png";
 // import discord from "../Images/discord-logo.png";
@@ -39,8 +40,23 @@ const Section1 = () => {
             Id's and user account on Blockchain.
           </p>
           <div className="btn-wrapper">
-            <button className="btn btn-left">Get Started</button>
-            <button className="btn btn-right">How it Works?</button>
+            <a
+              className="btn btn-left"
+              href="https://ucpi.gitbook.io/authx/"
+              target="_blank"
+            >
+              Get Started
+            </a>
+            <ScrollTo>
+              {({ scroll }) => (
+                <a
+                  onClick={() => scroll({ y: 2500, smooth: true })}
+                  className="btn btn-right"
+                >
+                  How it Works?
+                </a>
+              )}
+            </ScrollTo>
           </div>
         </div>
         <div className="img-container">
