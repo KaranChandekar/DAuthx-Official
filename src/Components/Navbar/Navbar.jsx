@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { ScrollTo } from "react-scroll-to/dist";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
