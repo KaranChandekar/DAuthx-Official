@@ -2,7 +2,7 @@
 
 Official website created for AuthX with React.js.
 
-# Languages
+## Languages
 
 - HTML
 - CSS
