@@ -22,7 +22,7 @@ const Machine = () => {
     "200258434787-u82a51f1huvslf3m8dcnh5gq8uolsjko.apps.googleusercontent.com";
   const ucpism = new web3.eth.Contract(abi, SC_ADDRESS);
   let { sc_address } = useParams();
-  let [loading, setLoading] = useState(true);
+  let [loading, setLoading] = useState(false);
   let [color, setColor] = useState("#1cc4d4");
   const provider = new providers.Web3Provider(window.ethereum);
   const signer = provider.getSigner();
